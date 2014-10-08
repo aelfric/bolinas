@@ -9,7 +9,7 @@ import pprint
 from argparse import ArgumentParser
 
 # Bolinas imports
-from config import config
+from bolinas.config import config
 from bolinas.common.hgraph.hgraph import Hgraph
 from bolinas.common import log
 from bolinas.common import output
