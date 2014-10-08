@@ -1,4 +1,4 @@
-from lib.amr.dag import Dag
+from bolinas.lib.amr.dag import Dag
 
 from data_structures import Edge
 

@@ -1,11 +1,11 @@
-from common.exceptions import InvocationException
-from common.hgraph.hgraph import Hgraph
-from common.cfg import NonterminalLabel
-from lib.tree import Tree
+from bolinas.common.exceptions import InvocationException
+from bolinas.common.hgraph.hgraph import Hgraph
+from bolinas.common.cfg import NonterminalLabel
+from bolinas.lib.tree import Tree
 import re
 from collections import defaultdict as ddict
 import itertools
-from parser.vo_rule import Rule
+from bolinas.parser.vo_rule import Rule
 import sys
 
 DEFAULT_COMPOSITION_DEPTH = 3

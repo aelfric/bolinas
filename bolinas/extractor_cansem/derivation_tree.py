@@ -4,7 +4,7 @@ from sets import Set
 from Queue import Queue
 from collections import defaultdict
 
-from lib.amr.amr import Dag
+from bolinas.lib.amr.amr import Dag
 from data_structures import RuleInstance, CanonicalDerivation, Edge
 from data_structures import tibFormat, galFormat
 

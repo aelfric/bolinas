@@ -1,4 +1,4 @@
-from common.rule import Rule
+from bolinas.common.rule import Rule
 from tree_decomposition import tree_decomposition
 
 class TdRule(Rule):

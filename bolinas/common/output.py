@@ -2,10 +2,10 @@
 Methods to format Bolinas output.
 '''
 
-from common.hgraph.hgraph import Hgraph
-from common.cfg import NonterminalLabel
-from common import log 
-from common.exceptions import DerivationException
+from bolinas.common.hgraph.hgraph import Hgraph
+from bolinas.common.cfg import NonterminalLabel
+from bolinas.common import log 
+from bolinas.common.exceptions import DerivationException
 import math
  
 def walk_derivation(derivation, combiner, leaf):

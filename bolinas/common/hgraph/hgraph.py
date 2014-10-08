@@ -14,8 +14,8 @@ import copy
 import os
 import cStringIO
 from operator import itemgetter
-from common.cfg import NonterminalLabel
-from common.exceptions import DerivationException
+from bolinas.common.cfg import NonterminalLabel
+from bolinas.common.exceptions import DerivationException
 
 _graphics = False
 def require_graphics():

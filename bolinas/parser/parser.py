@@ -3,10 +3,10 @@ import math
 import re
 import time
 from collections import defaultdict as ddict, deque
-from lib.tree import Tree
-from common import log
-from common.hgraph.hgraph import Hgraph
-from common.cfg import Chart
+from bolinas.lib.tree import Tree
+from bolinas.common import log
+from bolinas.common.hgraph.hgraph import Hgraph
+from bolinas.common.cfg import Chart
 from vo_item import CfgItem, HergItem, SynchronousItem 
 from vo_rule import VoRule
 import pprint

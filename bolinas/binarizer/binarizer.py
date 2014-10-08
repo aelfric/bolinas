@@ -1,5 +1,5 @@
 from parser.rule import Rule
-from lib.exceptions import InvocationException, InputFormatException
+from bolinas.lib.exceptions import InvocationException, InputFormatException
 
 MODE_STRING = 0
 MODE_TREE = 1

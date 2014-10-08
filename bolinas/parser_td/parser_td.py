@@ -1,13 +1,13 @@
-from lib.tree import Tree
-from common import log
+from bolinas.lib.tree import Tree
+from bolinas.common import log
 import time
 from collections import defaultdict as ddict, deque
 import itertools
 import re
 import math
-from common.cfg import Chart
-from common.exceptions import InvocationException, InputFormatException
-from common.hgraph.hgraph import Hgraph
+from bolinas.common.cfg import Chart
+from bolinas.common.exceptions import InvocationException, InputFormatException
+from bolinas.common.hgraph.hgraph import Hgraph
 from td_item import Item, BoundaryItem, FasterCheckBoundaryItem
 
 

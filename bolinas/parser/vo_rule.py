@@ -3,12 +3,12 @@ import re
 import StringIO
 import cPickle as pickle
 from collections import defaultdict as ddict
-from common.cfg import NonterminalLabel
-from common.hgraph.hgraph import Hgraph
-from common.hgraph.graph_description_parser import ParserError, LexerError
-from common import log
-from common.rule import Rule
-from lib.tree import Tree
+from bolinas.common.cfg import NonterminalLabel
+from bolinas.common.hgraph.hgraph import Hgraph
+from bolinas.common.hgraph.graph_description_parser import ParserError, LexerError
+from bolinas.common import log
+from bolinas.common.rule import Rule
+from bolinas.lib.tree import Tree
 
 class VoRule(Rule):
   ''' 

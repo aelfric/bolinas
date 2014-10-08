@@ -2,8 +2,8 @@ import sys
 import re
 from collections import defaultdict
 from hgraph import Hgraph, SpecialValue, StrLiteral, Quantity, Literal
-from common.cfg import NonterminalLabel
-from common.exceptions import LexerError, ParserError
+from bolinas.common.cfg import NonterminalLabel
+from bolinas.common.exceptions import LexerError, ParserError
 
 '''
 A deterministic, linear time parser for hypergraph descriptions.

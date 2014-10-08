@@ -1,7 +1,7 @@
 import random
 import bisect
 import math
-from common.logarithm import LOGZERO, logadd
+from bolinas.common.logarithm import LOGZERO, logadd
 
 def bin_search(l,v):
     values, categories = zip(*l)

@@ -1,6 +1,6 @@
 import itertools
-from common import log
-from common.logarithm import logadd, logsum, LOGZERO
+from bolinas.common import log
+from bolinas.common.logarithm import logadd, logsum, LOGZERO
 from collections import defaultdict
 from Queue import PriorityQueue
 import math

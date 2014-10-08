@@ -10,16 +10,16 @@ from argparse import ArgumentParser
 
 # Bolinas imports
 from config import config
-from common.hgraph.hgraph import Hgraph
-from common import log
-from common import output
-from common.exceptions import DerivationException
-from common.grammar import Grammar
-from parser.parser import Parser
-from parser.vo_rule import VoRule
-from parser_td.td_rule import TdRule
-from parser_td.td_item import Item
-from parser_td.parser_td import ParserTD
+from bolinas.common.hgraph.hgraph import Hgraph
+from bolinas.common import log
+from bolinas.common import output
+from bolinas.common.exceptions import DerivationException
+from bolinas.common.grammar import Grammar
+from bolinas.parser.parser import Parser
+from bolinas.parser.vo_rule import VoRule
+from bolinas.parser_td.td_rule import TdRule
+from bolinas.parser_td.td_item import Item
+from bolinas.parser_td.parser_td import ParserTD
 
 def read_pairs(input):            
     """

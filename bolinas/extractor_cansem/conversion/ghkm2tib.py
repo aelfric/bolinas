@@ -3,7 +3,7 @@ import re
 import math
 from collections import defaultdict
 
-from extractor_cansem.data_structures import galFormat,tibFormat
+from bolinas.extractor_cansem.data_structures import galFormat,tibFormat
 
 def ghkm2tib(inFile,outFile):
 

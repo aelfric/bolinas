@@ -1,5 +1,5 @@
 import sys
-from lib.termcolor import colored
+from bolinas.lib.termcolor import colored
 
 def pe(parts, color=None):
   print >>sys.stderr, colored(' '.join([str(s) for s in parts]), color)

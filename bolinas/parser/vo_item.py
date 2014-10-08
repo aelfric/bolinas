@@ -1,5 +1,5 @@
-from common.hgraph.hgraph import NonterminalLabel
-from common import log
+from bolinas.common.hgraph.hgraph import NonterminalLabel
+from bolinas.common import log
 import itertools
 
 # Some general advice for reading this file:

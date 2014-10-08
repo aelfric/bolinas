@@ -1,15 +1,15 @@
-from common.exceptions import InputFormatException, BinarizationException, GrammarError, ParserError, DerivationException
-from common.hgraph.hgraph import Hgraph
-from common.cfg import NonterminalLabel, Chart
-from common.rule import Rule
-from common import log
-from common.sample import sample
-from common.logarithm import logadd
-from common.logarithm import LOGZERO
-from parser.parser import Parser
-from parser_td.parser_td import ParserTD
-from parser.vo_rule import VoRule
-from parser_td.td_rule import TdRule
+from bolinas.common.exceptions import InputFormatException, BinarizationException, GrammarError, ParserError, DerivationException
+from bolinas.common.hgraph.hgraph import Hgraph
+from bolinas.common.cfg import NonterminalLabel, Chart
+from bolinas.common.rule import Rule
+from bolinas.common import log
+from bolinas.common.sample import sample
+from bolinas.common.logarithm import logadd
+from bolinas.common.logarithm import LOGZERO
+from bolinas.parser.parser import Parser
+from bolinas.parser_td.parser_td import ParserTD
+from bolinas.parser.vo_rule import VoRule
+from bolinas.parser_td.td_rule import TdRule
 from collections import defaultdict
 import math
 import heapq

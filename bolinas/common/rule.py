@@ -1,4 +1,4 @@
-from common.hgraph.hgraph import Hgraph
+from bolinas.common.hgraph.hgraph import Hgraph
 import math
 
 class Rule(object):

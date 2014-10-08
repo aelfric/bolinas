@@ -1,10 +1,10 @@
 import sys
 import re
 
-from common.exceptions import ParserError
-from common.grammar import DummyItem, Grammar
-from common import output
-from parser.vo_rule import VoRule 
+from bolinas.common.exceptions import ParserError
+from bolinas.common.grammar import DummyItem, Grammar
+from bolinas.common import output
+from bolinas.parser.vo_rule import VoRule 
 import fileinput
 
 '''
